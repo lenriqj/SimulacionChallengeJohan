@@ -12,7 +12,15 @@ function stringMasLarga(strings) {
   // stringMasLarga(['JavaScript', 'HTML', 'CSS']); debe retornar 'JavaScript'
 
   // Tu código aca
+  var nuevostring="";
+  for(i of strings){
+    if(strings[0].length <= i.length){
+      nuevostring=i;
+    }
+  }
+  return nuevostring;
 }
+console.log(stringMasLarga(arr=["asdad","aa","adadasdasdasdas"]));
 
 // No modifiques nada debajo de esta linea //
 
